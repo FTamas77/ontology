@@ -8,12 +8,3 @@
 * **Install the package list:** `python -m pip install -r requirements3.10.txt`
 * **Deactivate the environment:** `deactivate`
 
-**git related useful commands:**
-
-* Create tag: `git tag `<tagname>
-* Push tags: `git push origin --tags`
-* Move tags, steps:
-  * git tag -d <tagname>                  # delete the old tag locally
-  * git push origin :refs/tags/<tagname>  # delete the old tag remotely
-  * git tag <tagname> <commitId>          # make a new tag locally
-  * git push origin <tagname>             # push the new local tag to the remote
